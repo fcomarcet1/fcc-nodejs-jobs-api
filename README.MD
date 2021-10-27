@@ -10,7 +10,7 @@ JWT_SECRET
 After that run this command
 
 ```bash
-npm install && npm start
+npm install && npm run start
 ```
 
 Swagger UI
