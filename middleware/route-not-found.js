@@ -1,3 +1,5 @@
-const RoutenotFound = (req, res) => res.status(404).send("Route does not exist");
+const RouteNotFound = (req, res) => {
+    res.status(404).send("Route does not exist");
+};
 
-module.exports = RoutenotFound;
+module.exports = RouteNotFound;
